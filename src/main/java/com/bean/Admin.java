@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 //@Scope("prototype")-->by default this scope is singleton
 public class Admin {
 
-	private int aId;
+	private int aid;
 	private String aName;
 	@Autowired
 	private Date date;
