@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    bean definitions here
+	<bean class="java.util.Date" id="dt"></bean>
+	<bean class="com.bean.EmployeeDetail" id="empdt"></bean>
+	<bean class="com.bean.Empolyee" id="emp">
+	    <property name="ed" ref="empdt"></property>
+		<property name="date" ref="dt" ></property>
+	 	<property name="eId" value="101"></property> 
+		<property name="eName" value="meet"></property> 
+		<property name="hobbies">
+			<list >
+				<value>reading</value>
+				<value>cricket</value>
+				<value>sleeping</value>
+			</list>
+			
+		</property>
+		<property name="ranks">
+			<map key-type="java.lang.Integer" value-type="java.lang.String">this is just option if we not do such it will take as it was in employee class
+				<entry key="1" value="nice"></entry>
+				<entry key="2" value="ohh yes"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans> -->
